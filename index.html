@@ -18,23 +18,19 @@
   <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link rel="stylesheet" href="assets/vendor/aos/aos.css">
   <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
   <link rel="stylesheet" href="assets/vendor/boxicons/css/boxicons.min.css">
-  <link rel="stylesheet" href="assets/vendor/glightbox/css/glightbox.min.css">
-  <link rel="stylesheet" href="assets/vendor/swiper/swiper-bundle.min.css">
 
   <!-- Template Main CSS File -->
-  <link rel="stylesheet" href="assets/css/style.css?v=2">
+  <link rel="stylesheet" href="assets/css/style.css?v=4">
 
+  <link rel="stylesheet" href="assets/css/media.css">
 </head>
 
 <body>
 
   <!-- ======= Mobile nav toggle button ======= -->
-  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
-  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+  <button type="button" class="mobile-nav-toggle d-xl-none" aria-label="Open navigation" aria-expanded="false" aria-controls="navbar"><i class="bx bx-menu" aria-hidden="true"></i></button>
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex flex-column justify-content-center">
 
@@ -52,11 +48,11 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center">
 
-    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+    <div class="container">
       <div class="row">
         <div class="col-md-6">
       <h1>Abhishek Joshi</h1>
-      <p><span class="typed" data-typed-items="Game Programmer"></span></p>
+      <p>Game Programmer</p>
       <div class="social-links">
         <a href="https://github.com/Abhishek-dev-tech" target="_blank" class="github"><i class="bx bxl-github"></i></a>
         <a href="mailto:abhijoshi.dev@gmail.com" target="_blank" class="envelope"><i class=" bx bxs-envelope"></i></a>
@@ -67,7 +63,7 @@
 
           <div class="col-md-6 text-centerr">
       <div class="video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/bsQxx2LGdAM?si=KBQJuMkYy58zuJqw" loading="lazy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <a class="youtube-preview" href="https://www.youtube.com/watch?v=bsQxx2LGdAM" data-youtube-id="bsQxx2LGdAM" aria-label="Play portfolio showreel"><img src="https://i.ytimg.com/vi/bsQxx2LGdAM/hqdefault.jpg" width="480" height="360" loading="eager" decoding="async" alt=""><span class="youtube-play" aria-hidden="true">&#9654;</span><span class="youtube-caption">Play portfolio showreel</span></a>
       </div>
     </div></div>
   </div>
@@ -77,7 +73,7 @@
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
+      <div class="container">
 
         <div class="section-title">
           <h2>About</h2>
@@ -94,10 +90,10 @@
 
       </div>
     </section><!-- End About Section -->
-    
+
     <section id="Project" class="Games">
 
-      <div class="container" data-aos="fade-up">
+      <div class="container">
         <div class="section-title">
           <h2>Projects</h2>
           <p>Professional, published, and independent work.</p>
@@ -108,7 +104,7 @@
 
           <div class="row shadowhover">
             <div class="col-md-6">
-              <h3 class="project-heading"><a href="Gro.html" target="_blank"><i class="bi bi-link-45deg"></i> Gro</a></h3>
+              <h3 class="project-heading"><a href="Gro.html" target="_blank"><i class="bx bx-link"></i> Gro</a></h3>
               <h4 class="project-subheading">VR Game</h4>
               <div class="project-tags">
                 <span class="project-tag">Professional</span>
@@ -125,7 +121,7 @@
 
           <div class="row shadowhover">
             <div class="col-md-6">
-              <h3 class="project-heading"><a href="TT.html" target="_blank"><i class="bi bi-link-45deg"></i> Tempo Travelers</a></h3>
+              <h3 class="project-heading"><a href="TT.html" target="_blank"><i class="bx bx-link"></i> Tempo Travelers</a></h3>
               <h4 class="project-subheading">VR Party Game</h4>
               <div class="project-tags">
                 <span class="project-tag">Professional</span>
@@ -137,15 +133,15 @@
             </div>
             <div class="col-md-6 text-center">
               <div class="video-container">
-                <div class="spinner"></div>
-                <iframe width="420" height="236" src="https://www.youtube.com/embed/ntUInEpkkjU" loading="lazy" title="Tempo Travelers trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <a class="youtube-preview" href="https://www.youtube.com/watch?v=ntUInEpkkjU" data-youtube-id="ntUInEpkkjU" aria-label="Play Tempo Travelers trailer"><img src="https://i.ytimg.com/vi/ntUInEpkkjU/hqdefault.jpg" width="480" height="360" loading="lazy" decoding="async" alt=""><span class="youtube-play" aria-hidden="true">&#9654;</span><span class="youtube-caption">Play Tempo Travelers trailer</span></a>
               </div>
             </div>
           </div>
 
           <div class="row shadowhover">
             <div class="col-md-6">
-              <h3 class="project-heading"><a href="JudgementDay.html" target="_blank"><i class="bi bi-link-45deg"></i> Judgement Day</a></h3>
+              <h3 class="project-heading"><a href="JudgementDay.html" target="_blank"><i class="bx bx-link"></i> Judgement Day</a></h3>
               <h4 class="project-subheading">Adventure Puzzle Game</h4>
               <div class="project-tags">
                 <span class="project-tag">Personal</span>
@@ -157,15 +153,15 @@
             </div>
             <div class="col-md-6 text-center">
               <div class="video-container">
-                <div class="spinner"></div>
-                <iframe width="420" height="236" src="https://www.youtube.com/embed/p162TBoFt6Y?si=mO34KH9YFNmvfRwY" loading="lazy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <a class="youtube-preview" href="https://www.youtube.com/watch?v=p162TBoFt6Y" data-youtube-id="p162TBoFt6Y" aria-label="Play Judgement Day trailer"><img src="https://i.ytimg.com/vi/p162TBoFt6Y/hqdefault.jpg" width="480" height="360" loading="lazy" decoding="async" alt=""><span class="youtube-play" aria-hidden="true">&#9654;</span><span class="youtube-caption">Play Judgement Day trailer</span></a>
               </div>
             </div>
           </div>
 
           <div class="row shadowhover">
             <div class="col-md-6">
-              <h3 class="project-heading"><a href="2DMltiplayer.html" target="_blank"><i class="bi bi-link-45deg"></i> 2D Multiplayer</a></h3>
+              <h3 class="project-heading"><a href="2DMltiplayer.html" target="_blank"><i class="bx bx-link"></i> 2D Multiplayer</a></h3>
               <h4 class="project-subheading">2D-Multiplayer-Game</h4>
               <div class="project-tags">
                 <span class="project-tag">Personal</span>
@@ -177,15 +173,15 @@
             </div>
             <div class="col-md-6 text-center">
               <div class="video-container">
-                <div class="spinner"></div>
-                <iframe width="420" height="236" src="https://www.youtube.com/embed/8BYDnRf-zYw?si=EHd4U_hpqtzxmfwy" loading="lazy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <a class="youtube-preview" href="https://www.youtube.com/watch?v=8BYDnRf-zYw" data-youtube-id="8BYDnRf-zYw" aria-label="Play 2D Multiplayer gameplay"><img src="https://i.ytimg.com/vi/8BYDnRf-zYw/hqdefault.jpg" width="480" height="360" loading="lazy" decoding="async" alt=""><span class="youtube-play" aria-hidden="true">&#9654;</span><span class="youtube-caption">Play 2D Multiplayer gameplay</span></a>
               </div>
             </div>
           </div>
 
           <div class="row shadowhover">
             <div class="col-md-6">
-              <h3 class="project-heading"><a href="2DPlaneShooter.html" target="_blank"><i class="bi bi-link-45deg"></i> 2D Plane Shooter</a></h3>
+              <h3 class="project-heading"><a href="2DPlaneShooter.html" target="_blank"><i class="bx bx-link"></i> 2D Plane Shooter</a></h3>
               <h4 class="project-subheading">2d-Plane-Shooter</h4>
               <div class="project-tags">
                 <span class="project-tag">Personal</span>
@@ -196,7 +192,7 @@
               <a href="2DPlaneShooter.html" target="_blank">Read more...</a>
             </div>
             <div class="col-md-6 text-center">
-              <img src="assets/gif/2d-Plane-Shooter.webm" loading="lazy" alt="2D Plane Shooter gameplay"/>
+              <video class="gameplay-preview" controls muted playsinline preload="none" width="420" height="236" aria-label="2D Plane Shooter gameplay"><source src="assets/gif/2d-Plane-Shooter.webm" type="video/webm">Your browser does not support video. <a href="assets/gif/2d-Plane-Shooter.webm">Watch the gameplay</a>.</video>
             </div>
           </div>
 
@@ -207,7 +203,7 @@
 
           <div class="row shadowhover project-card-compact">
             <div class="col-md-6">
-              <h3 class="project-heading"><a href="YouAreNotAlone.html" target="_blank"><i class="bi bi-link-45deg"></i> You Are Not Alone</a></h3>
+              <h3 class="project-heading"><a href="YouAreNotAlone.html" target="_blank"><i class="bx bx-link"></i> You Are Not Alone</a></h3>
               <div class="project-tags">
                 <span class="project-tag">Personal</span>
                 <span class="project-tag">Game Jam</span>
@@ -218,15 +214,15 @@
             </div>
             <div class="col-md-6 text-center">
               <div class="video-container">
-                <div class="spinner"></div>
-                <iframe width="420" height="236" src="https://www.youtube.com/embed/mlYNgY-lILg" loading="lazy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <a class="youtube-preview" href="https://www.youtube.com/watch?v=mlYNgY-lILg" data-youtube-id="mlYNgY-lILg" aria-label="Play You Are Not Alone gameplay"><img src="https://i.ytimg.com/vi/mlYNgY-lILg/hqdefault.jpg" width="480" height="360" loading="lazy" decoding="async" alt=""><span class="youtube-play" aria-hidden="true">&#9654;</span><span class="youtube-caption">Play You Are Not Alone gameplay</span></a>
               </div>
             </div>
           </div>
 
           <div class="row shadowhover project-card-compact">
             <div class="col-md-6">
-              <h3 class="project-heading"><a href="SkyTowers.html" target="_blank"><i class="bi bi-link-45deg"></i> Sky Towers</a></h3>
+              <h3 class="project-heading"><a href="SkyTowers.html" target="_blank"><i class="bx bx-link"></i> Sky Towers</a></h3>
               <div class="project-tags">
                 <span class="project-tag">Personal</span>
                 <span class="project-tag">Unity</span>
@@ -237,8 +233,8 @@
             </div>
             <div class="col-md-6 text-center">
               <div class="video-container">
-                <div class="spinner"></div>
-                <iframe width="420" height="236" src="https://www.youtube.com/embed/korqavcZVyA" loading="lazy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <a class="youtube-preview" href="https://www.youtube.com/watch?v=korqavcZVyA" data-youtube-id="korqavcZVyA" aria-label="Play Sky Towers gameplay"><img src="https://i.ytimg.com/vi/korqavcZVyA/hqdefault.jpg" width="480" height="360" loading="lazy" decoding="async" alt=""><span class="youtube-play" aria-hidden="true">&#9654;</span><span class="youtube-caption">Play Sky Towers gameplay</span></a>
               </div>
             </div>
           </div>
@@ -264,8 +260,8 @@
                     <p>First hypercasual title; learned optimization, DoTween UI animation, and Unity ads.</p>
                   </div>
                   <div class="project-series-video video-container">
-                    <div class="spinner"></div>
-                    <iframe src="https://www.youtube.com/embed/c14J6vmC52k" loading="lazy" title="Destruction gameplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    <a class="youtube-preview" href="https://www.youtube.com/watch?v=c14J6vmC52k" data-youtube-id="c14J6vmC52k" aria-label="Play Destruction gameplay"><img src="https://i.ytimg.com/vi/c14J6vmC52k/hqdefault.jpg" width="480" height="360" loading="lazy" decoding="async" alt=""><span class="youtube-play" aria-hidden="true">&#9654;</span><span class="youtube-caption">Play Destruction gameplay</span></a>
                   </div>
                 </li>
                 <li class="project-series-card">
@@ -274,8 +270,8 @@
                     <p>Mesh work with ProBuilder and reusing modular code from earlier projects.</p>
                   </div>
                   <div class="project-series-video video-container">
-                    <div class="spinner"></div>
-                    <iframe src="https://www.youtube.com/embed/pQY7acDvaB4" loading="lazy" title="Thief Master gameplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    <a class="youtube-preview" href="https://www.youtube.com/watch?v=pQY7acDvaB4" data-youtube-id="pQY7acDvaB4" aria-label="Play Thief Master gameplay"><img src="https://i.ytimg.com/vi/pQY7acDvaB4/hqdefault.jpg" width="480" height="360" loading="lazy" decoding="async" alt=""><span class="youtube-play" aria-hidden="true">&#9654;</span><span class="youtube-caption">Play Thief Master gameplay</span></a>
                   </div>
                 </li>
                 <li class="project-series-card">
@@ -284,8 +280,8 @@
                     <p>Mesh optimization and modular code reuse in Unity.</p>
                   </div>
                   <div class="project-series-video video-container">
-                    <div class="spinner"></div>
-                    <iframe src="https://www.youtube.com/embed/k4MDStAQ4y4" loading="lazy" title="Sand Eater gameplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    <a class="youtube-preview" href="https://www.youtube.com/watch?v=k4MDStAQ4y4" data-youtube-id="k4MDStAQ4y4" aria-label="Play Sand Eater gameplay"><img src="https://i.ytimg.com/vi/k4MDStAQ4y4/hqdefault.jpg" width="480" height="360" loading="lazy" decoding="async" alt=""><span class="youtube-play" aria-hidden="true">&#9654;</span><span class="youtube-caption">Play Sand Eater gameplay</span></a>
                   </div>
                 </li>
                 <li class="project-series-card">
@@ -294,8 +290,8 @@
                     <p>Mesh work and integrating external SDKs in Unity.</p>
                   </div>
                   <div class="project-series-video video-container">
-                    <div class="spinner"></div>
-                    <iframe src="https://www.youtube.com/embed/7AqzSkwAN_I" loading="lazy" title="Jumpy Square gameplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    <a class="youtube-preview" href="https://www.youtube.com/watch?v=7AqzSkwAN_I" data-youtube-id="7AqzSkwAN_I" aria-label="Play Jumpy Square gameplay"><img src="https://i.ytimg.com/vi/7AqzSkwAN_I/hqdefault.jpg" width="480" height="360" loading="lazy" decoding="async" alt=""><span class="youtube-play" aria-hidden="true">&#9654;</span><span class="youtube-caption">Play Jumpy Square gameplay</span></a>
                   </div>
                 </li>
                 <li class="project-series-card">
@@ -304,8 +300,8 @@
                     <p>Slicing and breaking 3D objects with modular code patterns.</p>
                   </div>
                   <div class="project-series-video video-container">
-                    <div class="spinner"></div>
-                    <iframe src="https://www.youtube.com/embed/uECpXU6dp1M" loading="lazy" title="Smash It gameplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    <a class="youtube-preview" href="https://www.youtube.com/watch?v=uECpXU6dp1M" data-youtube-id="uECpXU6dp1M" aria-label="Play Smash It gameplay"><img src="https://i.ytimg.com/vi/uECpXU6dp1M/hqdefault.jpg" width="480" height="360" loading="lazy" decoding="async" alt=""><span class="youtube-play" aria-hidden="true">&#9654;</span><span class="youtube-caption">Play Smash It gameplay</span></a>
                   </div>
                 </li>
                 <li class="project-series-card">
@@ -314,8 +310,8 @@
                     <p>Scriptable objects and modular code reuse.</p>
                   </div>
                   <div class="project-series-video video-container">
-                    <div class="spinner"></div>
-                    <iframe src="https://www.youtube.com/embed/hsZb9m6EeAA" loading="lazy" title="Sandwich Master gameplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    <a class="youtube-preview" href="https://www.youtube.com/watch?v=hsZb9m6EeAA" data-youtube-id="hsZb9m6EeAA" aria-label="Play Sandwich Master gameplay"><img src="https://i.ytimg.com/vi/hsZb9m6EeAA/hqdefault.jpg" width="480" height="360" loading="lazy" decoding="async" alt=""><span class="youtube-play" aria-hidden="true">&#9654;</span><span class="youtube-caption">Play Sandwich Master gameplay</span></a>
                   </div>
                 </li>
               </ul>
@@ -335,12 +331,12 @@
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up">
+      <div class="container">
 
         <div class="section-title">
           <h2>Contact</h2>
         </div>
-          
+
 
           <div class="social-links">
             <a href="https://github.com/Abhishek-dev-tech" target="_blank" class="github"><i class="bx bxl-github"></i></a>
@@ -360,32 +356,16 @@
     </div>
   </footer><!-- End Footer -->
 
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter.js" defer></script>
-  <script src="assets/vendor/aos/aos.js" defer></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js" defer></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js" defer></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js" defer></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js" defer></script>
-  <script src="assets/vendor/typed.js/typed.min.js" defer></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js" defer></script>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bx bx-up-arrow-alt"></i></a>
+
+  <!-- Lightweight page behavior -->
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js" defer></script>
-  
+
   <script>
   document.addEventListener('DOMContentLoaded', function() {
-    document.querySelectorAll('.video-container').forEach(container => {
-      const iframe = container.querySelector('iframe');
-      const spinner = container.querySelector('.spinner');
-      if (iframe && spinner) {
-        iframe.addEventListener('load', () => spinner.style.display = 'none');
-      }
-    });
-
     const toggleMore = document.getElementById('toggle-more-projects');
     const moreProjects = document.getElementById('more-projects');
     if (toggleMore && moreProjects) {
@@ -422,6 +402,7 @@
   });
   </script>
 
+  <script src="assets/js/media.js" defer></script>
 </body>
 
 </html>
